@@ -1,0 +1,121 @@
+/*Variables globales*/
+:root{
+    --MarronFav: rgb(134, 4, 4);
+}
+
+body{
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Contenido{
+    background-color: rgb(129, 124, 56);
+    padding: 25px;
+    width: 800px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*Barra de navegacion*/
+nav {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    background-color: var(--MarronFav);
+    text-align: center;
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+nav a{
+    color: aliceblue;
+    
+}
+
+/*BOTONES*/
+.Boton{
+    padding: 5px;
+    font-size: 18;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.Enviar{
+    background-color: rgb(4, 119, 29);
+    color: aliceblue;
+}
+
+.Borrar{
+    background-color: red;
+    color: aliceblue;  
+}
+
+.tarjeta{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+}
+.tarjeta h2{
+    color: burlywood;
+    font-size: 22px;
+}
+
+.imagen{
+    float:none;
+    border-radius: 10px;
+    border: 0;
+    
+}
+
+.TarjetaFoto{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    background-color: var(--MarronFav);
+    padding: 25px;
+}
+/*formulario*/
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+form input,textarea {
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+footer{
+    background-color: brown;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+    font-weight: 800;
+}
