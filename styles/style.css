@@ -21,20 +21,42 @@ body{
 nav {
     color: rgb(255, 255, 255);
     font-weight: 800;
+    font-size: 18px;
     background-color: var(--MarronFav);
     text-align: center;
     width:850px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    padding: 15px;
+    height: 30px;
     border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 nav a{
     color: aliceblue;
-    
+    font-style: normal;
+    text-decoration: none;
 }
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(63, 46, 22);
+    background-color: rgb(248, 175, 115);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 2px;
+    border-color: black;
+}
+
+
+
 
 /*BOTONES*/
 .Boton{
@@ -84,6 +106,8 @@ nav a{
     border-radius: 25px;
     background-color: var(--MarronFav);
     padding: 25px;
+    /*Para que se mantenga el tamaño*/
+    box-sizing: border-box;
 }
 /*formulario*/
 
